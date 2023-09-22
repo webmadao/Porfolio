@@ -221,6 +221,7 @@ aside{
 footer{
   display: flex;
   background-color: #222;
+  align-items: center;
   color: #fff;
   justify-content:space-around;
   padding: 20px;
@@ -232,6 +233,12 @@ footer a{
   color: #fff;
 }
 
+.sociaux
+{
+  display: flex;
+  gap: 10px;
+  font-size: 40px;
+}
 
 
 
