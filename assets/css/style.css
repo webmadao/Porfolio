@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: #000;
+  background-color: #6bae5d;
   color: #fff;
   font-family: 'Roboto', sans-serif;
 
@@ -16,17 +16,22 @@ ul{
 
 /* Styles pour la nav */
 nav {
-  background-color: #222;
+  background-color: black;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(193, 193, 193, 0.25) 0px 30px 60px -12px inset, rgba(255, 254, 254, 0.3) 0px 18px 36px -18px inset;
 }
 
-#nav-list {
+#list {
   font-size: small;
   padding-right: 20px;
   align-items: center;
+  color: #fff;
 }
 
 nav ul {
@@ -47,43 +52,25 @@ text-decoration: underline;
 color: rgb(15, 119, 15);
 }
 
-ul.light-mode{
-    color: #000;
-}
-
 h1 {
-  color: rgb(6, 69, 6);
   margin: 0;
 }
 
-#mode-toggle {
-  cursor: pointer;
-  
-}
 
 
-/* Styles pour le mode jour */
-body.light-mode {
-  background-color: #fff;
-  color: #000;
-}
 
-nav.light-mode {
-  background-color: #f0f0f0;
-}
-
-h1.light-mode {
-  color: #090;
-}
 
 /* Styles pour le header */
 
 header{
-  height: 300px;
-    text-align: center;
-    object-fit: cover;
-    background-image: url('https://img.freepik.com/vecteurs-libre/sphere-big-data-verte-chaines-nombres-binaires_1217-2312.jpg?w=740&t=st=1695301554~exp=1695302154~hmac=40d272fff3df1a6d9bdd8b59dff8a96963d84a0f4cfe996f5c1c3ae8da962086');
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  background-image: url('../images/fond.jpg');
+  background-size: cover;
 }
+
+
 #nav-list {
   
   display: none;
@@ -119,11 +106,12 @@ main{
 
 /*section projet*/
 
-.projets{
+#projets{
   background-color: #fff;
   color: #090;
   text-align: center;
   justify-content: center;
+  padding: 20px ;
 }
 
 .les-projets{
@@ -135,10 +123,11 @@ main{
 }
 
 .les-projets figure{
-  background-color: #d3cfcf;
+  background-color: #6bae5d;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
-  padding: 10px;
+  width: 300px;
+  padding: 20px;
   margin: 0;
 }
 
@@ -157,17 +146,22 @@ main{
   color: #d3cfcf;
   text-align: center;
   justify-content: center;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.competences h2{
+margin: 0;
+
 }
 
 .liste{
-  
   font-size: 12px;
-  border: red solid 1px;
   display: flex;
   align-items: center;
   place-content: center;
   margin: 0;
-  padding: 0;
+  padding-block: 20px;
   gap: 20px;
   flex-wrap: wrap;
 width: calc ((100% - 20px) / 2);
@@ -175,11 +169,13 @@ width: calc ((100% - 20px) / 2);
 
 .liste figure{
   background-color: #fff;
+  color: #090;
   border-radius: 5px;
   margin: 0;
   font-size: 17px;
   padding: 20px;
   width: 300px;
+  height: 200px;
 }
 
 .liste figcaption{
@@ -188,8 +184,10 @@ width: calc ((100% - 20px) / 2);
 }
 
 .liste figure:hover{
-  background-color:black;
+  color: #fff;
+  background-color:rgb(47, 141, 61);
   border:1px solid white; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .langages-tech{
@@ -200,6 +198,7 @@ width: calc ((100% - 20px) / 2);
   margin: 0;
   flex-wrap: wrap;
   place-content: center;
+  font-size: 20px;
 }
 
 /*aside*/
@@ -220,17 +219,19 @@ aside{
 
 footer{
   display: flex;
-  background-color: #222;
+  background-color: rgb(47, 141, 61);
   align-items: center;
   color: #fff;
   justify-content:space-around;
   padding: 20px;
   text-decoration: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 footer a{
   text-decoration: none;
   color: #fff;
+  
 }
 
 .sociaux
@@ -243,44 +244,7 @@ footer a{
 
 
 @media screen and (min-width: 768px) {
-  /* Styles pour les écrans de taille supérieure à 768px */
-  #nav-list {
-    display: flex;
-  }
-  
-  #menu-toggle {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 767px) {
-  /* Styles pour les écrans de taille inférieure ou égale à 767px */
-  #nav-list {
-    display: none;
-  }
-  
-  #menu-toggle {
-    display: block;
-  }
-}
-
-/* Styles pour le bouton de menu burger */
-#menu-toggle {
-  position: relative;
-  border: none;
-  background: transparent;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #000;
-  margin-bottom: 5px;
-}
-
-.light-mode .bar {
-  background-color: #fff;
 }
