@@ -88,17 +88,23 @@ h1 {
 
 /* Styles pour le header */
 
-header{
+header {
   height: 800px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-align: center;
-  background-image: url('https://miro.medium.com/v2/resize:fit:2000/1*A3UAmyPVyrzhlvRJnd3rNA.jpeg');
+  background-image: url('https://img.freepik.com/photos-gratuite/contexte-programmation-personne-travaillant-codes-ordinateur_23-2150010125.jpg?w=996&t=st=1695891378~exp=1695891978~hmac=30cb35faa1b06633ed656fac89d4b4f5d38e13d9b04103b4c5e58fe9170e1f9f');
   background-size: cover;
   place-content: center; 
   font-size: xx-large;
   padding: 20px;
-  filter: brightness(70%) contrast(150%);
+  filter: brightness(70%) contrast(100%);
   background-color: var(--black);
+  display: flex;
+  align-items: center;
+}
+
+.intro {
+  justify-content: center;
 }
 
 
@@ -113,6 +119,7 @@ header{
 /*section présentation*/
 
 .presentation {
+  height: 900px;
   background-color: var(--black);
   display: flex;
   flex-direction: column;
@@ -126,16 +133,16 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
-  color: rgb(20, 60, 26);
   font-weight: bolder ;
   width: 50%;
   height: 400px;
   border-radius: 10px;
+  
 }
 
 .presentation p img{
   width: 15%;
+  padding-bottom: 30px;
 }
 
 /*main----*/
