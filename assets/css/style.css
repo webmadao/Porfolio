@@ -92,12 +92,12 @@ header {
   height: 800px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-align: center;
-  background-image: url('https://img.freepik.com/photos-gratuite/contexte-programmation-personne-travaillant-codes-ordinateur_23-2150010125.jpg?w=996&t=st=1695891378~exp=1695891978~hmac=30cb35faa1b06633ed656fac89d4b4f5d38e13d9b04103b4c5e58fe9170e1f9f');
+  background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80');
   background-size: cover;
   place-content: center; 
   font-size: xx-large;
   padding: 20px;
-  filter: brightness(70%) contrast(100%);
+  backdrop-filter: brightness(70%) contrast(180%);
   background-color: var(--black);
   display: flex;
   align-items: center;
@@ -105,6 +105,7 @@ header {
 
 .intro {
   justify-content: center;
+  backdrop-filter: none;
 }
 
 
