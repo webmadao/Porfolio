@@ -291,7 +291,7 @@ color: var(--white);
 
 /*aside*/
 
-aside{
+.parcours{
   background-color: var(--white);
   color: var(--black);
   text-align: center;
@@ -301,12 +301,12 @@ aside{
   gap: 30px;
 }
 
-aside a{
+.parcours a{
   text-decoration: none;
 }
 
 
-aside h2{
+.parcours h2{
   color: var(--text-color)
 }
 
