@@ -216,6 +216,10 @@ header {
   color: #fff;
 }
 
+.mnk:hover{
+  cursor:no-drop;
+}
+
 /*section compétences*/
 .competences{
   max-width: 1450px;
@@ -258,6 +262,7 @@ color: var(--white);
   padding: 20px;
   width: 300px;
   height: 200px;
+  border: 1px solid transparent;
 }
 
 .liste figcaption{
