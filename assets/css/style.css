@@ -128,7 +128,7 @@ header {
   align-items: center;
 }
 
-.intro {
+#intro {
   justify-content: center;
   backdrop-filter: none;
 }
