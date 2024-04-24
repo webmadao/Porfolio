@@ -1,0 +1,89 @@
+{
+    "projets": [
+        {
+     "titre": "Booki",
+     "catégorie": "front-end",
+      "description": "Agence de voyage",
+      "image": "assets/images/booki.png",
+      "lienSite": "https://webmadao.github.io/Booki/",
+      "lienRepo": "https://github.com/webmadao/Booki",
+      "altText": "un ensemble de différents hôtels, hébergements et activités à Marseille"
+        },
+        {
+            "titre": "Architecte-Sophie-bluel",
+            "catégorie": "front-end",
+            "description": "Travaux d'architecte",
+            "image": "assets/images/architecte.png",
+            "lienSite": "https://webmadao.github.io/Architecte-Sophie-Bluel/",
+            "lienRepo": "https://github.com/webmadao/Architecte-Sophie-Bluel",
+            "altText": "un projet d'architecte"
+        },
+        {
+            "titre": "Nina-carducci",
+            "catégorie": "front-end",
+            "description": "Portfolio Photographe", 
+            "image":"assets/images/nina-carducci.png",
+            "lienSite":"https://webmadao.github.io/nina-carducci/",
+            "lienRepo":"https://github.com/webmadao/nina-carducci",
+            "altText":"un homme traversant un passage pieton ainsi que le portrait de la Photographe"
+        },
+        {
+            "titre": "Kasa",
+            "catégorie": "front-end",
+            "description": "Agence immobilière / Vacances",
+            "image": "assets/images/kasa.png",
+            "lienRepo":"https://github.com/webmadao/projet-kasa.git",
+            "altText":"un ensmeble d'hébérgements de vacances diverses et variées"
+        },
+        {
+            "titre": "Mon-vieux-Grimoire",
+            "catégorie": "backend-end",
+            "description": "Référencement et notation de livres",
+            "image": "assets/images/vieux-grimoire.png",
+            "lienRepo":"https://github.com/webmadao/vieux-grimoire.git",
+            "altText":"uneliste de de livre noté et intitulé"
+        },
+        {
+            "titre": "Diag'avenir",
+            "catégorie": "wordpress",
+            "description": "Diagnostique immobilier / Wordpress",
+            "image":"assets/images/diag.avenir.png",
+            "lienSite":"https://diagavenir.com/",
+            "altText":"une villa en fond"
+        },
+        {
+            "titre": "La Depannerie",
+            "catégorie": "wordpress",
+            "description": "Dépanage 2 roues / Wordpress",
+            "image":"assets/images/la.depannerie.png",
+            "lienSite":"https://www.ladepanneriemoto.fr/",
+            "altText":"un grand plan sur le devant d'une moto et des information"
+        },
+        {
+            "titre": "Mnk.personnalise",
+            "catégorie": "wordpress",
+            "description": "E-commerce / wordpress",
+            "image":"assets/images/mnk.png",
+            "title":"Ce site n'est plus en ligne",
+            "altText":"une boxe cadeau pour femme, un peignoire un doudou aevc un plaide pour enfant"
+        },
+        {
+            "titre": "MonFaitMain",
+            "catégorie": "wordpress",
+            "description": "E-commerce / Wordpress",
+            "image":"assets/images/la.depannerie.png",
+            "lienSite":"https://monfaitmain.com/",
+            "altText":"la premire page du site e-commerce mon fait main avec le logo en fond d'image"
+        },
+        {
+            "titre": "Oummahsfamily",
+            "catégorie": "wordpress",
+            "description": "E-commerce / Wordpress",
+            "image":"assets/images/la.depannerie.png",
+            "lienSite":"https://oummahsfamily.com/",
+            "altText":"la premire page du site e-commerce Oummahsfamily avec le logo en fond d'image"
+        }
+
+
+    ]
+}
