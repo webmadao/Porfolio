@@ -71,7 +71,7 @@
             "titre": "MonFaitMain",
             "catégorie": "wordpress",
             "description": "E-commerce / Wordpress",
-            "image":"assets/images/la.depannerie.png",
+            "image":"assets/images/monfaitmain.avif",
             "lienSite":"https://monfaitmain.com/",
             "altText":"la premire page du site e-commerce mon fait main avec le logo en fond d'image"
         },
@@ -79,9 +79,17 @@
             "titre": "Oummahsfamily",
             "catégorie": "wordpress",
             "description": "E-commerce / Wordpress",
-            "image":"assets/images/la.depannerie.png",
+            "image":"assets/images/oummahsfamily.avif",
             "lienSite":"https://oummahsfamily.com/",
             "altText":"la premire page du site e-commerce Oummahsfamily avec le logo en fond d'image"
+        },
+        {
+            "titre": "Carte de visite Hello-Diagnostic",
+            "catégorie": "front-end",
+            "description": "Application web",
+            "image":"assets/images/hello-diag-carte-de-viste.avif",
+            "lienSite":"https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/",
+            "altText":"une carte de visite en ligne avec des focntionnalitées de partage et d'accées à un formulaire de contact"
         }
 
 
