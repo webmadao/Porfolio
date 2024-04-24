@@ -36,41 +36,25 @@ fetch('projets.json')
     console.error('Erreur lors du chargement des projets : ', error);
   });
 
-  const projetsFilter = document.querySelector('.filtres');
+//   const projetsFilter = document.querySelector('.filtres');
 
-  const filtres = document.querySelector('.filtres');
-  filtres.addEventListener('click', function(event) {
+//   const filtres = document.querySelector('.filtres');
+//   filtres.addEventListener('click', function(event) {
     
-    const target = event.target;
-    if (target.tagName === 'A') {
-      const actives = document.querySelectorAll('.active');
-      actives.forEach(function(active) {
-        active.classList.remove('active');
+//     const target = event.target;
+//     if (target.tagName === 'A') {
+//       const actives = document.querySelectorAll('.active');
+//       actives.forEach(function(active) {
+//         active.classList.remove('active');
        
-      });
-      target.parentElement.classList.add('active');
-    }
-  });
+//       });
+//       target.parentElement.classList.add('active');
+//     }
+//   });
 
 
-const filtresBtn = document.querySelectorAll('.filtres li');
-const lesProjets = document.querySelector('.les-projets');
 
-const name = item.dataset.name;
 
-filtresBtn.forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    lesProjets.innerHTML = '';
-    const name = btn.dataset.name;
-    projets.forEach(function(projet) {
-      if (projet.categorie === name || name === 'Tous') {
-        const item = document.createElement('li');
-        item.innerHTML = `item${projet.categorie}`;
-        lesProjets.appendChild(item);
-      }
-    });
-  });
-});
 
 
 
