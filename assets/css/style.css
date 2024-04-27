@@ -84,22 +84,39 @@ nav {
 
 .logo{
   width: 40px;
+  padding-inline: 10px;
 }
 
 #list {
-  font-size: small;
-  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 10px;
   align-items: center;
-  
+  margin: 0;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
 display: flex;
 flex-wrap: wrap;
-gap: 20px;
 list-style: none;
 font-weight: bolder;
 font-size: larger;
+}
+
+nav ul li {
+  background-color: inherit;
+  padding: 20px;
+  margin: 0;
+}
+
+nav ul li:hover {
+  background-color: var(--gris-background);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 nav ul a {
