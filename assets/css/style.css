@@ -157,34 +157,58 @@ header {
 .show {
   display: block;
 }
+/* Presentation*/
 
-/*section présentation*/
 .presentation {
-  height: 900px;
-  background-color: var(--black);
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement le contenu */
-  align-items: center; /* Pour centrer horizontalement le contenu */
+  background-color: #f3f4f6 ;/* Fond blanc pour la luminosité */
+  color: #333; /* Texte noir pour le contraste */
+  border-left: 5px solid #27ae60; /* Bordure latérale verte pour un accent moderne */
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Ombre plus prononcée pour un effet 3D */
+  transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.presentation:hover {
+  transform: translateY(-10px); /* Légère élévation au survol */
+}
+
+.presentation h2 {
+  color: #27ae60; /* Titre en vert pour attirer l'attention */
+  font-size: 24px;
+  text-transform: uppercase; /* Majuscules pour un impact visuel */
+  letter-spacing: 1.5px; /* Espacement des lettres pour un style épuré */
   text-align: center;
-  box-shadow: rgba(193, 193, 193, 0.25) 0px 30px 60px -12px inset, rgba(255, 254, 254, 0.3) 0px 18px 36px -18px inset;
+  margin-bottom: 20px;
 }
 
 .presentation p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: bolder ;
-  width: 50%;
-  height: 400px;
-  border-radius: 10px;
-  
+  color: #606f7b;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify; /* Justification pour un aspect soigné */
 }
 
-.presentation p img{
-  width: 15%;
-  padding-bottom: 30px;
+.presentation img {
+  width: 80px; /* Taille ajustée pour l'équilibre */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%; /* Image ronde pour un design moderne */
 }
+
+.presentation a {
+  color: #27ae60; /* Liens en vert pour l'uniformité */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transition de couleur douce */
+}
+
+.presentation a:hover {
+  color: #2ecc71; /* Vert plus clair au survol pour un effet interactif */
+  text-decoration: underline;
+}
+
 
 /*main----*/
 
