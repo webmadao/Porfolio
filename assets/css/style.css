@@ -160,25 +160,25 @@ header {
 /* Presentation*/
 
 .presentation {
-  background-color: #f3f4f6 ;/* Fond blanc pour la luminosité */
-  color: #333; /* Texte noir pour le contraste */
-  border-left: 5px solid #27ae60; /* Bordure latérale verte pour un accent moderne */
+  background-color: #f3f4f6 ;
+  color: #333; 
+  border-left: 5px solid #27ae60;
   padding: 20px;
   max-width: 600px;
   margin: 40px auto;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Ombre plus prononcée pour un effet 3D */
-  transition: transform 0.3s ease; /* Animation au survol */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+  transition: transform 0.3s ease; 
 }
 
 .presentation:hover {
-  transform: translateY(-10px); /* Légère élévation au survol */
+  transform: translateY(-10px); 
 }
 
 .presentation h2 {
-  color: #27ae60; /* Titre en vert pour attirer l'attention */
+  color: #27ae60; 
   font-size: 24px;
-  text-transform: uppercase; /* Majuscules pour un impact visuel */
-  letter-spacing: 1.5px; /* Espacement des lettres pour un style épuré */
+  text-transform: uppercase; 
+  letter-spacing: 1.5px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -187,25 +187,25 @@ header {
   color: #606f7b;
   font-size: 16px;
   line-height: 1.6;
-  text-align: justify; /* Justification pour un aspect soigné */
+  text-align: justify; 
 }
 
 .presentation img {
-  width: 80px; /* Taille ajustée pour l'équilibre */
+  width: 80px; 
   height: auto;
   display: block;
   margin: 20px auto;
-  border-radius: 50%; /* Image ronde pour un design moderne */
+  border-radius: 50%; 
 }
 
 .presentation a {
-  color: #27ae60; /* Liens en vert pour l'uniformité */
+  color: #27ae60; 
   font-weight: bold;
-  transition: color 0.3s ease; /* Transition de couleur douce */
+  transition: color 0.3s ease; 
 }
 
 .presentation a:hover {
-  color: #2ecc71; /* Vert plus clair au survol pour un effet interactif */
+  color: #2ecc71; 
   text-decoration: underline;
 }
 
@@ -215,7 +215,7 @@ header {
 /*section projet*/
 #projets{
   max-width: 1450px;
-  margin: 0 auto; /* Pour centrer la section horizontalement */
+  margin: 0 auto; 
   background-color: #fff;
   color: var(--text-color);
   text-align: center;
@@ -271,7 +271,7 @@ header {
 /*section compétences*/
 .competences{
   max-width: 1450px;
-  margin: 0 auto; /* Pour centrer la section horizontalement */
+  margin: 0 auto; 
   background-color: var(--black);
   color: #d3cfcf;
   text-align: center;
@@ -465,5 +465,18 @@ footer a{
 }
 
 .filtres li.active a {
-  color: var(--vert-principal)
+  color: white;
+  
 }
+
+ul .filtres{
+  background-color: #27ae60;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul .filtres:hover{
+  background-color:var(--gris-background);
+  color: var(--text-color)
+}
+

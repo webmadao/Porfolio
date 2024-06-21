@@ -37,7 +37,7 @@
         },
         {
             "titre": "Mon-vieux-Grimoire",
-            "categorie": "backend-end",
+            "categorie": "back-end",
             "description": "Référencement et notation de livres",
             "image": "assets/images/vieux-grimoire.png",
             "lienRepo": "https://github.com/webmadao/vieux-grimoire.git",
