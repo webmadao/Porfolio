@@ -503,7 +503,7 @@ footer a{
 }
 .filtres li a {
   text-decoration: none;
-  color:#2b1292;
+  color:white
 }
 
 .filtres li.active a {
@@ -519,7 +519,7 @@ ul .filtres{
 }
 
 ul .filtres:hover{
-  border-right: #303043 1px solid;
+
   color: #303043;
   color: var(--white)
 }
