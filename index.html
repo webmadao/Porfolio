@@ -56,33 +56,39 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav>
-      <a href="#top"
-        ><img
-          class="logo"
-          src="assets/images/logo.png"
-          alt="mon logo web.kin.dev"
-      /></a>
-      <ul id="list">
-        <li>
-          <a href="https://github.com/webmadao"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-        <li><a href="#coordonnees">Me contacter</a></li>
-        <li><a href="#projets">Mes projets</a></li>
-        <li><a href="">CV</a></li>
-      </ul>
-    </nav>
-
     <header id="top">
-      <div class="intro">
+      <nav>
+        <a class="logo-link" href="#top"
+          ><img
+            class="logo"
+            src="assets/images/logo.png"
+            alt="mon logo web.kin.dev"
+        /></a>
+        <ul id="list">
+          
+          <li>
+            <a href="https://github.com/webmadao"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li><a href="#coordonnees">Me contacter</a></li>
+          <li><a href="#projets">Mes projets</a></li>
+          <li><a href="">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <canvas>
+      <script src="canvas.js"></script>
+    </canvas>
+
+    <section class="intro">
+      <div class="profil">
         <h1>KADJI Ilyes</h1>
         <h2>Développeur web Full-stack</h2>
         <p>Bienvenu sur mon portfolio</p>
         <a class="btn-cv" href="assets/cv.pdf" download>Téléchargez mon CV</a>
-      </div>
-    </header>
+    </section>
 
     <main>
       <section class="presentation">
@@ -131,14 +137,24 @@
         </div>
         <ul class="les-projets"></ul>
       </section>
+
       <section class="competences">
+
         <h2>Mes compétences</h2>
         <h3>Mes compétences de développeur Web</h3>
+
         <ul class="liste">
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-building"></i>
               <h4>Gestion de projet et outils de développeur</h4>
+
+              <div class="click">
+                
+                <span>Voir plus</span>
+                <i class="fa-solid fa-fingerprint"></i>
+              </div>
+
               <figcaption class="description-competence">
                 spécifications techniques, découpage des tâches, solutions
                 techniques,<br />
@@ -150,7 +166,13 @@
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-file-code"></i>
-              <h4>Intégration web avec HTML et CSS</h4>
+            
+                <h4>Intégration web HTML et CSS</h4>
+                <div class="click">
+                  <span>Voir plus</span>
+                  <i class="fa-solid fa-fingerprint"></i>
+                </div>
+
               <figcaption class="description-competence">
                 Intégrer du contenu conformément à une maquette avec HTML et
                 CSS<br />
@@ -162,7 +184,13 @@
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-laptop-code"></i>
-              <h4>Développement web JavaScript</h4>
+            
+                <h4>Développement web JavaScript</h4>
+                <div class="click">
+                  <span>Voir plus</span>
+                  <i class="fa-solid fa-fingerprint"></i>
+                </div>
+
               <figcaption class="description-competence">
                 Récupérer les données utilisateurs dans le JavaScript via des
                 formulaires<br />Manipuler les éléments du DOM avec
@@ -175,7 +203,13 @@
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-laptop-code"></i>
-              <h4>Optimisation et debug</h4>
+              
+                <h4>Optimmisation et debug</h4>
+                <div class="click">
+                  <span>Voir plus</span>
+                  <i class="fa-solid fa-fingerprint"></i>
+                </div>
+
               <figcaption class="description-competence">
                 Optimiser les performances d’un site web<br />
                 Débugger un site web grâce aux Chrome DevTools<br />
@@ -187,7 +221,14 @@
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-laptop-code"></i>
-              <h4>React</h4>
+              
+                <h4>React</h4>
+
+                <div class="click">
+                  <span>Voir plus</span>
+                  <i class="fa-solid fa-fingerprint"></i>
+                </div>
+
               <figcaption class="description-competence">
                 Configurer la navigation entre les pages de l'application avec
                 React Router<br />
@@ -201,7 +242,13 @@
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-laptop-code"></i>
-              <h4>Développement back-end avec NodeJS</h4>
+             
+                <h4>Développement back-end avec NodeJs</h4>
+                <div class="click">
+                  <span>Voir plus</span>
+                  <i class="fa-solid fa-fingerprint"></i>
+                </div>
+
               <figcaption class="description-competence">
                 Implémenter un modèle logique de données conformément à la
                 réglementation<br />
@@ -214,7 +261,14 @@
           <li>
             <figure class="competence-dew-web">
               <i class="fa-solid fa-laptop-code"></i>
-              <h4>Publication d'un site web</h4>
+              
+              <h4>Développement back-end avec NodeJs</h4>
+
+              <div class="click">
+                <span>Voir plus</span>
+                <i class="fa-solid fa-fingerprint"></i>
+              </div>
+
               <figcaption class="description-competence">
                 Déployer un site statique en ligne
               </figcaption>
@@ -225,6 +279,12 @@
             <figure class="competence-dew-web">
               <i class="fa-solid fa-laptop-code"></i>
               <h4>Wordpress</h4>
+
+              <div class="click">
+                <span>Voir plus</span>
+                <i class="fa-solid fa-fingerprint"></i>
+              </div>
+
               <figcaption class="description-competence">
                 Site vitrine<br />
                 site E-commerce<br />

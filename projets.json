@@ -7,7 +7,8 @@
             "image": "assets/images/booki.png",
             "lienSite": "https://webmadao.github.io/Booki/",
             "lienRepo": "https://github.com/webmadao/Booki",
-            "altText": "un ensemble de différents hôtels, hébergements et activités à Marseille"
+            "altText": "un ensemble de différents hôtels, hébergements et activités à Marseille",
+            "techno": "HTML - CSS"
         },
         {
             "titre": "Architecte-Sophie-bluel",
@@ -16,7 +17,8 @@
             "image": "assets/images/architecte.png",
             "lienSite": "https://webmadao.github.io/Architecte-Sophie-Bluel/",
             "lienRepo": "https://github.com/webmadao/Portfolio-architecte-sophie-bluel-1",
-            "altText": "un projet d'architecte"
+            "altText": "un projet d'architecte",
+            "techno": "HTML - CSS - JavaScript"
         },
         {
             "titre": "Nina-carducci",
@@ -25,7 +27,8 @@
             "image": "assets/images/nina-carducci.png",
             "lienSite": "https://webmadao.github.io/nina-carducci/",
             "lienRepo": "https://github.com/webmadao/nina-carducci",
-            "altText": "un homme traversant un passage pieton ainsi que le portrait de la Photographe"
+            "altText": "un homme traversant un passage pieton ainsi que le portrait de la Photographe",
+            "techno": "HTML - CSS - JavaScript"
         },
         {
             "titre": "Kasa",
@@ -33,7 +36,9 @@
             "description": "Agence immobilière / Vacances",
             "image": "assets/images/kasa.png",
             "lienRepo": "https://github.com/webmadao/projet-kasa.git",
-            "altText": "un ensmeble d'hébérgements de vacances diverses et variées"
+            "altText": "un ensmeble d'hébérgements de vacances diverses et variées",
+            "techno": "HTML - CSS - JavaScript - React - Sass"
+
         },
         {
             "titre": "Mon-vieux-Grimoire",
@@ -41,7 +46,8 @@
             "description": "Référencement et notation de livres",
             "image": "assets/images/vieux-grimoire.png",
             "lienRepo": "https://github.com/webmadao/vieux-grimoire.git",
-            "altText": "une liste de de livre noté et intitulé"
+            "altText": "une liste de de livre noté et intitulé",
+            "techno": "Node.js - Express - MongoDB - Mongoose"
         },
         {
             "titre": "Diag'avenir",
@@ -49,7 +55,8 @@
             "description": "Diagnostique immobilier / Wordpress",
             "image": "assets/images/diag.avenir.png",
             "lienSite": "https://diagavenir.com/",
-            "altText": "une villa en fond"
+            "altText": "une villa en fond",
+            "techno": "Wordpress"
         },
         {
             "titre": "La Depannerie",
@@ -57,7 +64,8 @@
             "description": "Dépanage 2 roues / Wordpress",
             "image": "assets/images/la.depannerie.png",
             "lienSite": "https://www.ladepanneriemoto.fr/",
-            "altText": "un grand plan sur le devant d'une moto et des information"
+            "altText": "un grand plan sur le devant d'une moto et des information",
+            "techno": "Wordpress"
         },
         {
             "titre": "Mnk.personnalise",
@@ -65,7 +73,8 @@
             "description": "E-commerce / wordpress",
             "image": "assets/images/mnk.png",
             "title": "Ce site n'est plus en ligne",
-            "altText": "une boxe cadeau pour femme, un peignoire un doudou aevc un plaide pour enfant"
+            "altText": "une boxe cadeau pour femme, un peignoire un doudou aevc un plaide pour enfant",
+            "techno": "Wordpress-wooCommerce"
         },
         {
             "titre": "MonFaitMain",
@@ -73,7 +82,8 @@
             "description": "E-commerce / Wordpress",
             "image": "assets/images/monfaitmain.avif",
             "lienSite": "https://monfaitmain.com/",
-            "altText": "la premire page du site e-commerce mon fait main avec le logo en fond d'image"
+            "altText": "la premire page du site e-commerce mon fait main avec le logo en fond d'image",
+            "techno" :"Wordpress-wooCommerce"
         },
         {
             "titre": "Oummahsfamily",
@@ -81,7 +91,8 @@
             "description": "E-commerce / Wordpress",
             "image": "assets/images/oummahsfamily.avif",
             "lienSite": "https://oummahsfamily.com/",
-            "altText": "la premire page du site e-commerce Oummahsfamily avec le logo en fond d'image"
+            "altText": "la premire page du site e-commerce Oummahsfamily avec le logo en fond d'image",
+            "techno": "Wordpress-wooCommerce"
         },
         {
             "titre": "Carte de visite Hello-Diagnostic",
@@ -89,7 +100,8 @@
             "description": "Application web",
             "image": "assets/images/hello-diag-carte-de-viste.avif",
             "lienSite": "https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/",
-            "altText": "une carte de visite en ligne avec des focntionnalitées de partage et d'accées à un formulaire de contact"
+            "altText": "une carte de visite en ligne avec des focntionnalitées de partage et d'accées à un formulaire de contact",
+            "techno": "HTML-CSS-JavaScript"
         }
     ]
 }

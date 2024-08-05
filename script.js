@@ -22,13 +22,22 @@ fetch('projets.json')
                 alt="${projet.altText}"
               />
               <figcaption>
+              <p>${projet.techno}</p>
                 <a
                   href="${projet.lienRepo}"
                   title="Repo Github"
                 >
                   <h3>${projet.titre}</h3>
                   <p>${projet.description}</p>
+
+                  <div class="boutons-liens">
+                  
+                   <a href="${projet.lienRepo}" class="btnCode" title="Repo Github">Voir le code</a>
+                  <a href="${projet.lienSite}" class="btnSite" title="Voir le site">Voir le site</a>
+                  </div>
+                  
                 </a>
+              
               </figcaption>
             </figure>
           </a>
