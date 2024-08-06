@@ -482,6 +482,12 @@ footer a{
   .les-projets {
     place-content: center;
   }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
   .filtres li{
     padding: 0;
     font-size:12px;
