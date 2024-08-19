@@ -53,11 +53,12 @@ nav {
 #burger {
   display: none;
 }
-
 .intro {
- 
+  background-image: url('https://i.pinimg.com/originals/38/92/dd/3892ddc66d8112551b93a9abf4e53d17.jpg');
+  background-color: #2ecc71;
+  /* background-size: cover;
   text-align: center;
-  margin: 0;
+  margin: 0; */
 }
 
 
@@ -114,6 +115,7 @@ nav {
 nav{
   margin: 0;
   padding: 0 15px;
+  
 }
 
 nav ul {
@@ -186,7 +188,8 @@ header {
   border-left: 5px solid #3307e2;
   padding: 20px;
   max-width: 600px;
-  margin: 40px auto;
+   margin: 40px auto; 
+
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
   transition: transform 0.3s ease; 
 }
@@ -234,7 +237,7 @@ header {
 /*main----*/
 
 main{ 
-  margin-top: 1000px;
+  margin-top: 50%;
 }
 
 /*section projet*/
@@ -557,7 +560,7 @@ canvas {
   border-radius: 20px;
   /* margin: 20px; */
   width: 100%;
-  height: 100%;
+  height: 90%;
   background-image: linear-gradient(135deg, #120c19 0, #181135 50%, #000020 100%);
 }
 
