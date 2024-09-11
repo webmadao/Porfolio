@@ -68,3 +68,14 @@ fetch('projets.json')
   .catch(error => {
     console.error('Erreur lors du chargement des projets : ', error);
   });
+
+
+  const darkBtn = document.querySelector('.dark-mode-btn');
+
+
+  darkBtn.addEventListener('click', handelChangeMode);
+
+  function handelChangeMode() {
+    darkBtn.classList.toggle('dark-mode-btn--active');
+    document.body.classList.toggle('dark');
+  }
