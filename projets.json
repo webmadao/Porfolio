@@ -35,6 +35,7 @@
             "categorie": "front-end",
             "description": "Agence immobilière / Vacances",
             "image": "assets/images/kasa.png",
+            "lienSite":"https://projet-kasa-eight.vercel.app/",
             "lienRepo": "https://github.com/webmadao/projet-kasa.git",
             "altText": "un ensmeble d'hébérgements de vacances diverses et variées",
             "techno": "HTML - CSS - JavaScript - React - Sass"
